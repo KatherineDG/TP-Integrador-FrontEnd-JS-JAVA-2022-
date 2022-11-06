@@ -1,0 +1,38 @@
+.header-fondo{
+    background-image: url(imagenes/ba1.jpg);
+}
+
+.sombra{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+.header-caja{
+    padding: 15% 0 15% 0;
+}
+
+.publicacion-fondo{
+    background-color: #222529;
+}
+
+.footer-navegacion{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-navegacion li{
+    padding: 1% 4% 1% 4%;
+    text-align: center;
+}
+
+.footer-navegacion li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-navegacion li a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.4s;
+}
